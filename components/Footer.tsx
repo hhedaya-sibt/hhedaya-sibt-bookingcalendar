@@ -21,10 +21,10 @@ const Footer: React.FC = () => {
           <div>
              <h3 className="text-white text-lg font-serif font-semibold mb-6">Quick Links</h3>
              <ul className="space-y-3 text-sm">
-                <li><a href="https://www.hmssouthtampa.com/services" className="hover:text-white transition-colors">Services</a></li>
-                <li><a href="https://www.hmssouthtampa.com/process" className="hover:text-white transition-colors">Process</a></li>
-                <li><a href="https://www.hmssouthtampa.com/pricing" className="hover:text-white transition-colors">Pricing</a></li>
-                <li><a href="https://www.hmssouthtampa.com/testimonials" className="hover:text-white transition-colors">Testimonials</a></li>
+                <li><a href="https://www.hmssouthtampa.com/#services" className="hover:text-white transition-colors">Services</a></li>
+                <li><a href="https://www.hmssouthtampa.com/#process" className="hover:text-white transition-colors">Process</a></li>
+                <li><a href="https://www.hmssouthtampa.com/#pricing" className="hover:text-white transition-colors">Pricing</a></li>
+                <li><a href="https://www.hmssouthtampa.com/#testimonials" className="hover:text-white transition-colors">Testimonials</a></li>
              </ul>
           </div>
 

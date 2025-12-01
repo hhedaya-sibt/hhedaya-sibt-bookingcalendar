@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavItem } from './types';
 
-// Navigation matching the main website structure
+// Navigation matching the main website structure with anchor links
 export const NAV_ITEMS: NavItem[] = [
-  { label: 'Services', href: 'https://www.hmssouthtampa.com/services' },
-  { label: 'Process', href: 'https://www.hmssouthtampa.com/process' },
-  { label: 'Pricing', href: 'https://www.hmssouthtampa.com/pricing' },
-  { label: 'Testimonials', href: 'https://www.hmssouthtampa.com/testimonials' },
-  { label: 'Schedule Service', href: 'https://hmssouthtampa.com/bookingcalendar', isButton: true },
+  { label: 'Services', href: 'https://www.hmssouthtampa.com/#services' },
+  { label: 'Process', href: 'https://www.hmssouthtampa.com/#process' },
+  { label: 'Pricing', href: 'https://www.hmssouthtampa.com/#pricing' },
+  { label: 'Testimonials', href: 'https://www.hmssouthtampa.com/#testimonials' },
+  { label: 'Schedule Service', href: 'https://booking.hmssouthtampa.com', isButton: true },
 ];
 
 export const LOGO_URL = "https://storage.googleapis.com/msgsndr/Z9VkbpvTwFPgODZUYAw7/media/6929d5f832bffb323ba2309f.png";
