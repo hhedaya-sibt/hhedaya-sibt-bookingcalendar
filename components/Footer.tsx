@@ -1,5 +1,5 @@
 import React from 'react';
-import { CONTACT_INFO, LOGO_URL } from '../constants';
+import { CONTACT_INFO, LOGO_URL, NAV_ITEMS } from '../constants';
 
 const Footer: React.FC = () => {
   return (
@@ -21,10 +21,13 @@ const Footer: React.FC = () => {
           <div>
              <h3 className="text-white text-lg font-serif font-semibold mb-6">Quick Links</h3>
              <ul className="space-y-3 text-sm">
-                <li><a href="https://www.hmssouthtampa.com/#services" className="hover:text-white transition-colors">Services</a></li>
-                <li><a href="https://www.hmssouthtampa.com/#process" className="hover:text-white transition-colors">Process</a></li>
-                <li><a href="https://www.hmssouthtampa.com/#pricing" className="hover:text-white transition-colors">Pricing</a></li>
-                <li><a href="https://www.hmssouthtampa.com/#testimonials" className="hover:text-white transition-colors">Testimonials</a></li>
+                {NAV_ITEMS.filter(item => !item.isButton).map((item) => (
+                  <li key={item.label}>
+                    <a href={item.href} className="hover:text-white transition-colors">
+                      {item.label}
+                    </a>
+                  </li>
+                ))}
              </ul>
           </div>
 

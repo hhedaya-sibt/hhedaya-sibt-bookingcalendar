@@ -1,12 +1,13 @@
 import React from 'react';
 import { NavItem } from './types';
 
-// Navigation matching the main website structure with anchor links
+// Navigation matching the main website structure
+// Note: Anchors removed as they were causing blank screen issues on external navigation
 export const NAV_ITEMS: NavItem[] = [
-  { label: 'Services', href: 'https://www.hmssouthtampa.com/#services' },
-  { label: 'Process', href: 'https://www.hmssouthtampa.com/#process' },
-  { label: 'Pricing', href: 'https://www.hmssouthtampa.com/#pricing' },
-  { label: 'Testimonials', href: 'https://www.hmssouthtampa.com/#testimonials' },
+  { label: 'Services', href: 'https://www.hmssouthtampa.com' },
+  { label: 'Process', href: 'https://www.hmssouthtampa.com' },
+  { label: 'Pricing', href: 'https://www.hmssouthtampa.com' },
+  { label: 'Testimonials', href: 'https://www.hmssouthtampa.com' },
   { label: 'Schedule Service', href: 'https://booking.hmssouthtampa.com', isButton: true },
 ];
 
